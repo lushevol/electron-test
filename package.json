@@ -1,0 +1,26 @@
+{
+  "name": "matrix",
+  "version": "0.0.1",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-packager ./ matrix --out ./OutApp --app-version 0.0.1 --overwrite --icon=./resource/favicon.ico",
+    "build": "electron-builder --platform=all"
+  },
+  "author": "lushevol",
+  "license": "ISC",
+  "devDependencies": {
+    "tunnel-agent": "^0.6.0",
+    "tweetnacl": "^1.0.1",
+    "typedarray": "^0.0.6",
+    "universalify": "^0.1.2",
+    "uri-js": "^4.2.2",
+    "util-deprecate": "^1.0.2",
+    "uuid": "^3.3.2",
+    "validate-npm-package-license": "^3.0.4",
+    "verror": "^1.10.0",
+    "xtend": "^4.0.1",
+    "yauzl": "^2.10.0"
+  }
+}
