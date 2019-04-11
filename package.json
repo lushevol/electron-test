@@ -11,6 +11,7 @@
   "author": "lushevol",
   "license": "ISC",
   "devDependencies": {
+    "electron": "^4.1.4",
     "tunnel-agent": "^0.6.0",
     "tweetnacl": "^1.0.1",
     "typedarray": "^0.0.6",
